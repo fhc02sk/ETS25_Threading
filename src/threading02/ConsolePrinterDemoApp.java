@@ -14,7 +14,7 @@ public class ConsolePrinterDemoApp {
 
         threadA.start();
         threadB.start();
-        
+
         threadA.join();
         threadB.join();
 
